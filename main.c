@@ -77,6 +77,8 @@ int main ( void )
     
     while ( 1 )
     {
+        
+        //TEST of MPLABX to Github saving
         adcResult = ADC_Read10bit( ADC_CHANNEL_POTENTIOMETER );
 
         RTCC_TimeGet( &time );
